@@ -3,4 +3,4 @@ project(NDK C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(NDK cmake-build-debug/C/main.c)
+add_executable(NDK main.c)
